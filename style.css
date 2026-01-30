@@ -24,6 +24,7 @@
 
 body {
   font-family: TT Lakes;
+  color: #1B1C21
 }
 
 main {
@@ -50,6 +51,10 @@ header {
   gap: 15px;
 }
 
+.side-bar-menu{
+  position: relative;
+}
+
 .side-bar-menu ul li {
   margin: 0px 0px 10px 0px;
   padding: 16px 0px;
@@ -58,17 +63,16 @@ header {
 
 .side-bar-menu ul li a {
   text-decoration: none;
-  color: #7E7E82;
+  color: #1B1C21;
   margin: 24px;
 font-size: 16px;
-font-style: medium;
+font-weight: 500;
 }
 
-.side-bar-menu ul li:hover {
+.side-bar-menu ul li a:hover {
 font-style: bold;
-background-color: #ddd;
-color: #000;
-
+font-weight: 700;
+text-shadow: 2px 4px 2px #00000040;
 }
 
 .icons:hover {
@@ -83,7 +87,6 @@ color: #000;
 .side-menu-footer {
   margin-top: 260px;
   margin-left: 24px;
-  
 }
 
 .footer-icons {
@@ -94,7 +97,14 @@ color: #000;
 
 .side-menu-footer p {
   margin-bottom: 16px;
+  font-weight: 500;
 }
+
+.side-menu-footer p:last-of-type {
+  font-size: 24px;
+  font-weight: 700;
+}
+
 
 .language {
   display: flex;
@@ -102,5 +112,16 @@ color: #000;
   justify-content: flex-start;
   gap: 16px;
   padding: 24px 0px ;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.active {
+  width: 2%;
+  height: 10%;
+  background-color:#41F6D7 ;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute
 }
 
