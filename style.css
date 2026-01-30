@@ -8,7 +8,6 @@ main {
   background-color: #fff;
   max-width: 320px;
   height: auto;
-  border: solid;
   box-shadow:  0px 0px 24px 1px rgba(0,0,0,0.2);
 }
 
@@ -18,7 +17,44 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding: 24px;
+}
+
+.logo-close-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.side-bar-menu ul li a {
+  text-decoration: none;
+  color: #000;
+  margin: 24px;
+line-height: 4;
+}
+
+.side-menu-footer {
+  margin-top: 260px;
   margin-left: 24px;
-  margin-right: 24px;
+  
+}
+
+.footer-icons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 15px;
+}
+
+.side-menu-footer p {
+  margin-bottom: 16px;
+}
+
+.language {
+  display: flex;
+  margin-left: 24px;
+  justify-content: flex-start;
+  gap: 16px;
+  padding: 24px 0px ;
 }
 
