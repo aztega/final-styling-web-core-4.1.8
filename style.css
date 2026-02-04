@@ -3,6 +3,7 @@
   src: url("./fonts/TTLakes-Regular.woff")
     format("woff");
   font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
   src: url("./fonts/TTLakes-Medium.woff")
     format("woff");
   font-weight: 500;
+  font-style: medium;
 }
 
 @font-face {
@@ -17,6 +19,7 @@
   src: url("./fonts/TTLakes-Bold.woff")
     format("woff");
   font-weight: 700;
+  font-style: bold;
 }
 
 * {
@@ -28,7 +31,7 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: TTLakes;
+  font-family: "TTLakes";
   color: #1B1C21;
  min-height: 100vh; 
 }
