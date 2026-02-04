@@ -28,7 +28,7 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family: TT Lakes;
+  font-family: TTLakes;
   color: #1B1C21;
  min-height: 100vh; 
 }
